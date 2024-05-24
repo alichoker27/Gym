@@ -1,0 +1,117 @@
+/*classe Start*/
+
+/*add bootsrap here*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up)*/
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+}
+
+/*end bootsrap here */
+* {
+  box-sizing: border-box;
+}
+
+#classe {
+  background: #f4f4f4;
+  padding: 5rem 0;
+}
+
+#classe .title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#classe h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #383848;
+}
+
+#classe .title p {
+  font-size: 14px;
+  color: #7c7676;
+  font-weight: 600;
+}
+
+#classe .classe-items .classe-item img {
+  width: 100px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+#classe .classe-items .classe-item h3 {
+  color: #383848;
+  border-bottom: 1px dashed #c2bdbd;
+  padding: 5px;
+  margin: 40px;
+
+  position: relative;
+}
+
+#classe .classe-items .classe-item span {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#classe .classe-items .classe-item p {
+  margin: 40px;
+}
+
+#classe .btn {
+  background: #0edddd;
+  color: rgb(255, 253, 253);
+  display: block;
+  margin: 20px auto 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#classe .btn:hover {
+  background: #6a6ac0;
+  color: rgb(149, 226, 231);
+}
+
+#classe .container button a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.btn /*Ra7 tabi2 hayda l class 3a kel l buttons bi kel page fiya button*/ {
+  display: inline-block;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none; /*To remove the underline of the words*/
+}
+
+* {
+  padding: 0; /*To remove the space*/
+  margin: 0; /*To remove the space*/
+  box-sizing: border-box; /*To remove the space*/
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*class end*/

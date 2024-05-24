@@ -1,0 +1,81 @@
+/*Utility cLasses*/
+
+* {
+  box-sizing: border-box;
+}
+.primary-text {
+  color: #27b4df;
+}
+
+.btn /*Ra7 tabi2 hayda l class 3a kel l buttons bi kel page fiya button*/ {
+  display: inline-block;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none; /*To remove the underline of the words*/
+}
+
+.btn-primary {
+  /*hayda bas ra7 tab2o 3a l link taba3 login bl home page*/
+  color: white; /*Hy lawn l klmi choose a program*/
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.btn-primary:hover {
+  /*hay bet8ayir background l kabsi bas 7ot l index alaya*/
+  background: #27b4df;
+  border: none;
+  color: black;
+}
+
+/*edit here by chatgpt*/
+.btn-primary {
+  /* existing styling goes here */
+
+  /* new styling for glowing border animation */
+  box-shadow: 0px 0px 0px 0px rgba(3, 198, 247, 0.3);
+  animation: glow 2s ease-in-out infinite alternate;
+  border-radius: 40px;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0px 0px 0px 0px rgba(0, 255, 117, 0.3);
+  }
+  to {
+    box-shadow: 0px 0px 20px 5px rgba(0, 255, 117, 0.3);
+  }
+}
+/*end here by chatgpt*/
+
+.btn-secondary {
+  /*hayda bas ra7 tab2o 3a l kabsi taba3 go back and check our departments*/
+  color: white;
+  background: #383848;
+}
+.btn-secondary:hover {
+  background-color: #6a6ac0;
+}
+
+* {
+  padding: 0; /*To remove the space*/
+  margin: 0; /*To remove the space*/
+  box-sizing: border-box; /*To remove the space*/
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#footer {
+  background: #383848;
+  text-align: center;
+  color: white;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+#footer a {
+  color: #e3e2ed;
+}

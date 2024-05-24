@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap");
+
+/*add bootsrap here*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up)*/
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+}
+
+/*end bootsrap here */
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0; /*To remove the space*/
+  margin: 0; /*To remove the space*/
+  box-sizing: border-box; /*To remove the space*/
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+ul {
+  list-style: none; /*to remove the bullet which is beside each word */
+}
+
+a {
+  text-decoration: none; /*To remove the underline of the words*/
+}
+
+/*Header Start*/
+header {
+  height: 100vh;
+  background: url("./img/Home\ Page\ 4.jpg") center center/cover no-repeat;
+  position: relative;
+}
+
+#navbar /*the id navbar contains the img and the navigation bar*/ {
+  display: flex; /*To put the logo beside the navigation bar*/
+  justify-content: space-between; /*To put the navigation bar on the right side مقابل ال لوغو*/
+  align-items: center; /*put the words in the middle*/
+  background: transparent;
+  backdrop-filter: blur(15px);
+  position: fixed; /*7ata ma tet7arak bas na3mil scorll*/
+}
+
+#navbar img {
+  width: 80px; /*To reduce the logo size*/
+  /*the img in the navbar id*/
+  margin-left: 95px; /*make a distance from the left side*/
+  border-radius: 50px;
+}
+
+#navbar ul {
+  /*select the navbar and the ul*/
+  display: flex; /*To put the words on a line*/
+  margin-right: 414px; /*make a distance from the right side w hata yeje l blur 3a kel l sater*/
+}
+
+#navbar ul li a {
+  padding: 15px 20px; /*Make a space between the words*/
+  color: #ffffff; /*Hy bet8ayir lawn l kalimet bl navigation bar*/
+  font-weight: 600; /*mnsammik l 5at*/
+}
+
+#navbar ul li a:hover {
+  transition: 0.4s;
+  color: #27b4df;
+}
+header .content {
+  display: flex; /*Hy bto3rod l ma2ta3 b nos l sheshi */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /*put the paragraph in the hihgt center of the page */
+  height: 95vh; /*hay bet3adil l nas , y3ne betsantro 3l nos 7asab l ra2m */
+}
+
+header .content h1 {
+  font-size: 50px;
+  color: white;
+  padding: 20px;
+}
+
+header .content p {
+  margin: 20px 0 40px; /*top right buttom */
+  color: white;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.6); /*Hay 7atta n5afif l daw taba3 l background*/
+}
+header * {
+  z-index: 66; /*hay 7atta nerja3 n2awi l daw taba3 kl shi bl header l2no bi kon 5aff bi sabab hay yale faw2*/
+}
+
+.btn /*Ra7 tabi2 hayda l class 3a kel l buttons bi kel page fiya button*/ {
+  display: inline-block;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none; /*To remove the underline of the words*/
+}
+
+.btn-primary {
+  /*hayda bas ra7 tab2o 3a l link taba3 login bl home page*/
+  color: white; /*Hy lawn l klmi choose a program*/
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.btn-primary:hover {
+  /*hay bet8ayir background l kabsi bas 7ot l index alaya*/
+  background: #27b4df;
+  border: none;
+  color: black;
+}
+
+/*edit here by chatgpt*/
+.btn-primary {
+  /* existing styling goes here */
+
+  /* new styling for glowing border animation */
+  box-shadow: 0px 0px 0px 0px rgba(3, 198, 247, 0.3);
+  animation: glow 2s ease-in-out infinite alternate;
+  border-radius: 40px;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0px 0px 0px 0px rgba(0, 255, 117, 0.3);
+  }
+  to {
+    box-shadow: 0px 0px 20px 5px rgba(0, 255, 117, 0.3);
+  }
+}
+/*end here by chatgpt*/
+
+/*Header end*/

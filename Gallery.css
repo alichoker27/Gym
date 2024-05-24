@@ -1,0 +1,90 @@
+/*Gallery start*/
+
+/*add bootsrap here*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up)*/
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+}
+
+/*end bootsrap here */
+
+* {
+  box-sizing: border-box;
+}
+
+#gallery {
+  background: url("./img/offer-background.jpg") center center/cover no-repeat;
+  padding: 5rem 5rem;
+  height: 100vh;
+}
+
+#gallery h2 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+#gallery .img-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#gallery .img-gallery img {
+  width: 280px;
+  height: 180px;
+  border-radius: 15px;
+  margin: 20px;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+#gallery .img-gallery img:hover {
+  opacity: 1;
+}
+
+.btn /*Ra7 tabi2 hayda l class 3a kel l buttons bi kel page fiya button*/ {
+  display: inline-block;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none; /*To remove the underline of the words*/
+}
+
+.btn-secondary {
+  /*hayda bas ra7 tab2o 3a l kabsi taba3 go back and check our departments*/
+  color: #00000a;
+  background: #fefeff;
+}
+.btn-secondary:hover {
+  background-color: #6a6ac0;
+}
+
+* {
+  padding: 0; /*To remove the space*/
+  margin: 0; /*To remove the space*/
+  box-sizing: border-box; /*To remove the space*/
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/*Gallery end*/

@@ -1,0 +1,142 @@
+/*About start*/
+
+/*add bootsrap here*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #about .title h2 {
+    font-size: 30px;
+  }
+  #about .title p {
+    margin: 15px;
+  }
+  #about .about-content img {
+    width: 70px;
+    margin-left: 10px;
+  }
+  #about .about-content p {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .btn {
+    padding: 10px 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up)*/
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #about .title h2 {
+    font-size: 35px;
+  }
+  #about .about-content img {
+    width: 80px;
+    margin-left: 15px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #about .title h2 {
+    font-size: 40px;
+  }
+  #about .about-content img {
+    width: 90px;
+    margin-left: 20px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+}
+
+/*end bootsrap*/
+
+* {
+  box-sizing: border-box;
+}
+#about {
+  height: 100vh; /*toul l saf7a */
+  display: flex;
+  justify-content: center;
+  align-items: center; /*Hata yeje l mohtawa bl nos */
+}
+
+#about.title {
+  display: flex;
+  flex-direction: column;
+}
+
+#about .title {
+  text-align: center;
+}
+
+#about .title img {
+  border-radius: 30px;
+  width: 110px;
+}
+
+#about .title h2 {
+  font-size: 40px;
+  color: #383848;
+  margin: 50px;
+}
+
+#about .title p {
+  font-size: 14px;
+  color: #6e6767;
+  margin: 25px;
+  font-weight: 600px;
+}
+
+#about .about-content img {
+  /*Hy eza 7atayt sura bl about */
+  width: 100px; /*La nza8ir 7ajm l sura */
+  border-radius: 40px;
+  padding: 14px;
+  margin-left: 25px;
+}
+
+#about .about-content p {
+  color: #242121;
+  margin-right: 11rem; /*Hay 7ata ntarib hawemish l nas*/
+  margin-left: 11rem; /*w hay kmn*/
+  font-weight: 500;
+  line-height: 1.6; /*7ata na3mil masefi bayn kell sater */
+}
+
+#about .about-content a {
+  margin-left: 5px;
+  text-decoration: none; /*To remove the underline of the words*/
+}
+
+.btn /*Ra7 tabi2 hayda l class 3a kel l buttons bi kel page fiya button*/ {
+  display: inline-block;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none; /*To remove the underline of the words*/
+}
+
+.btn-secondary {
+  /*hayda bas ra7 tab2o 3a l kabsi taba3 go back and check our departments*/
+  color: white;
+  background: #383848;
+}
+.btn-secondary:hover {
+  background-color: #6a6ac0;
+}
+
+* {
+  padding: 0; /*To remove the space*/
+  margin: 0; /*To remove the space*/
+  box-sizing: border-box; /*To remove the space*/
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/*About end*/
